@@ -1,9 +1,9 @@
 import math
 
-a = 3
-b = 5
-c = 7
-p = (a + b + c) / 2
-print (p * 2)
-S = math.sqrt ( p * (p - a) * ( p - b) * ( p - c))
+a = 2
+b = 2
+c = 8
+p = a + b + c 
+print (p)
+S = math.sqrt (p * (p - a) * ( p - b) * ( p - c))
 print (S)
