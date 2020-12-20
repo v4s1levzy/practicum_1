@@ -1,0 +1,13 @@
+import random
+
+N = int(input("Введите количество элементов массива"))
+a = [random.randint(0, 100) for i in range(0,N)]
+print(a)
+if (len(a) % 2 == 1):
+    end = N
+else:
+    end = N-1
+for i in range(end-1):
+    a[i], a[i + 1] = a[i + 1], a[i]
+    
+print(a)
